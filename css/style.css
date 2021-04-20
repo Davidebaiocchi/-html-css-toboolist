@@ -16,3 +16,11 @@ body {
     background-color: white;
     margin: 0px;
 }
+
+main {
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    height: 1500px;
+}
