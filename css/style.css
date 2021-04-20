@@ -1,0 +1,18 @@
+/* LOGO E TITOLO */
+#logo {
+    height: 70px;
+    line-height:70px;
+    vertical-align: middle;
+}
+#nomelogo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+body {
+    background-color: lightgrey;
+}
+.barra-top {
+    background-color: white;
+    margin: 0px;
+}
