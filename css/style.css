@@ -27,6 +27,8 @@ main {
     height: 1500px;
 }
 
+
+/* CONTAINER */
 .container {
     margin-left: 100px;
     margin-right: 100px;
@@ -37,6 +39,8 @@ main {
     margin-right: 100px;
 }
 
+
+/* CHECK AND CROSS */
 .check {
     color: rgb(4, 185, 4);
     background: white;
@@ -44,11 +48,18 @@ main {
     border-radius: 50%;
     padding: 2px;
 }
+.cross {
+    color: red;
+    background: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
 
 div{
     margin-top: 8px;
 }
-
 .edi {
     color: white;
     background-color: rgb(32, 149, 228);
@@ -56,15 +67,47 @@ div{
     border-radius: 15px;
 }
 
+
 /* BOTTONI */
 #button1 {
     color:white;
     background-color: rgb(32, 149, 228);
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid rgb(32, 149, 228); 
 }
 #button2{
     color: grey;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid lightgrey; 
+    background-color: white;
+}
+
+.q1 {
+    color: white;
+    background-color: rgb(104, 37, 121);
+    padding: 3px;
+    border-radius: 15px;
+}.web {
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 75, 201);
+    padding: 3px;
+    border-radius: 15px;
+}.recru {
+    color: white;
+    background-color: rgb(9, 185, 118);
+    padding: 3px;
+    border-radius: 15px;
+}.mob {
+    color: white;
+    background-color: rgb(212, 129, 5);
+    padding: 3px;
+    border-radius: 15px;
+}
+.sales {
+    color: white;
+    background-color: rgb(159, 184, 19);
+    padding: 3px;
+    border-radius: 15px;
 }
