@@ -1,4 +1,9 @@
 /* LOGO E TITOLO */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
 #logo {
     height: 70px;
     line-height:70px;
@@ -33,6 +38,7 @@ main {
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 20px;
+
 }
 .container2 {
     margin-left: 100px;
@@ -46,20 +52,20 @@ main {
     background: white;
     border: 1px solid green;
     border-radius: 50%;
-    padding: 2px;
     vertical-align:text-top;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
 }
 .cross {
     color: red;
     background: white;
     border: 1px solid red;
     border-radius: 50%;
-    padding: 2px;
     vertical-align:text-top;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
 }
 
 
